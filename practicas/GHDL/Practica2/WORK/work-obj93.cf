@@ -1,0 +1,31 @@
+v 4
+file "/mnt/d/Universidad/8C/AOC2/practicas/GHDL/Practica2/" "BR_test.vhd" "f9da784ce16d7fd9d795a23c336aca747594c2b9" "20250219123119.773":
+  entity br_testbench at 3( 26) + 2 on 4;
+  architecture behavior of br_testbench at 10( 155) + 2 on 4;
+file "/mnt/d/Universidad/8C/AOC2/practicas/GHDL/Practica2/" "BReg_delays.vhd" "54c2808bab0af4438bb0c7041acc7a2ee07ed945" "20250219123126.495":
+  entity breg at 20( 517) + 0 on 21;
+  architecture behavioral of breg at 49( 1823) + 0 on 22;
+file "/mnt/d/Universidad/8C/AOC2/practicas/GHDL/Practica2/" "Mov_Add_test.vhd" "73ceeeab0e18be8923d4b75704183fd0609eb3cb" "20250219123126.187":
+  entity mov_add_testbench at 3( 26) + 2 on 11;
+  architecture behavior of mov_add_testbench at 10( 165) + 2 on 12;
+file "/mnt/d/Universidad/8C/AOC2/practicas/GHDL/Practica2/" "Mov_add.vhd" "adc7aec082dc0236cc29f4487b6a2453e60582a3" "20250219123126.260":
+  entity mov_add at 11( 358) + 2 on 13;
+  architecture behavior of mov_add at 21( 561) + 2 on 14;
+file "/mnt/d/Universidad/8C/AOC2/practicas/GHDL/Practica2/" "REGISTER_delay.vhd" "615dbf31decb296ca20267c72334d72db86eecdb" "20250219123126.561":
+  entity reg at 2( 2) + 0 on 23;
+  architecture behavioral of reg at 18( 505) + 0 on 24;
+file "/mnt/d/Universidad/8C/AOC2/practicas/GHDL/Practica2/" "ROM_I_delay.vhd" "6dd00f8facde31e7fa986b177a3fca229e97afca" "20250219123126.394":
+  entity memoriarom_i at 10( 362) + 0 on 17;
+  architecture behavioral of memoriarom_i at 32( 1032) + 0 on 18;
+file "/mnt/d/Universidad/8C/AOC2/practicas/GHDL/Practica2/" "UC_Mov_add.vhd" "0c987b76b8d520c8d0d0c2539d676445986865fc" "20250219123126.443":
+  entity uc_mov_add at 10( 362) + 0 on 19;
+  architecture behavioral of uc_mov_add at 37( 1264) + 0 on 20;
+file "/mnt/d/Universidad/8C/AOC2/practicas/GHDL/Practica2/" "adder32_delay.vhd" "f7c3ed9e23478efe1ace2ed1df5bbc9cc3f93ece" "20250219123126.612":
+  entity adder32 at 20( 486) + 0 on 25;
+  architecture behavioral of adder32 at 41( 1153) + 0 on 26;
+file "/mnt/d/Universidad/8C/AOC2/practicas/GHDL/Practica2/" "counter_delay.vhd" "e5863088e3f3d8d1b5730200d5a56b9217dcb646" "20250219123126.345":
+  entity counter at 20( 487) + 0 on 15;
+  architecture behavioral of counter at 47( 1453) + 0 on 16;
+file "/mnt/d/Universidad/8C/AOC2/practicas/GHDL/Practica2/" "mux2_1_delay.vhd" "f1bd080e08899ee1be016aaafe1881eec9e107b5" "20250219123126.653":
+  entity mux2_1 at 20( 493) + 0 on 27;
+  architecture behavioral of mux2_1 at 44( 1327) + 0 on 28;
