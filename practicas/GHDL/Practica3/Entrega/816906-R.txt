@@ -1,0 +1,26 @@
+--------------------------------------------------------------------------------
+Lucia Morales Rosa, 816906@unizar.es
+Memoria de instrucciones para test de prueba reordenado con NIP = 816906
+--------------------------------------------------------------------------------
+JAL R7, #20 													-> 14070014
+LW  R0, 0(R6) -- R0 = 800000 									-> 08C00000
+ADD R2, R3, R2 													-> 04621000
+ADD R4, R5, R4 													-> 04A42000
+ADD R0, R1, R0 													-> 04010000
+NOP
+ADD R2, R4, R2													-> 04821000
+NOP
+NOP
+ADD R0, R2, R0													-> 04400000
+NOP
+NOP
+SW  R0, 0(R8) 													-> 0D000000
+JAL R0, -1 														-> 1400FFFF
+NOPS
+Subrutina para la carga de datos de memoria a registros
+LW  R1, 4(R6) -- R1 = 10000 									-> 08C10004
+LW  R2, 8(R6)  -- R2 = 6000 									-> 08C20008
+LW  R3, 12(R6) -- R3 = 900 										-> 08C3000C
+LW  R4, 16(R6) -- R4 = 0 										-> 08C40010
+LW  R5, 20(R6) -- R5 = 6 										-> 08C50014
+RET R7 -- Retornar a la direccion guardada en R7				-> 18E00000

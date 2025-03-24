@@ -1,0 +1,58 @@
+v 4
+file "/mnt/d/Universidad/8C/AOC2/practicas/GHDL/Practica3_2/" "ALU.vhd" "6595aaaece3599fb806b3b4c893fe93887d6878c" "20250324190339.179":
+  entity alu at 20( 482) + 0 on 37;
+  architecture behavioral of alu at 31( 864) + 0 on 38;
+file "/mnt/d/Universidad/8C/AOC2/practicas/GHDL/Practica3_2/" "BReg.vhd" "bb69d410cca56dd4f196ac706a7044ffa4091399" "20250324190338.859":
+  entity breg at 20( 481) + 0 on 25;
+  architecture behavioral of breg at 49( 1525) + 0 on 26;
+file "/mnt/d/Universidad/8C/AOC2/practicas/GHDL/Practica3_2/" "Banco_EX.vhd" "ef39f933260e0906d3becf4a11bbbae23e52d927" "20250324190339.073":
+  entity banco_ex at 20( 487) + 0 on 33;
+  architecture behavioral of banco_ex at 78( 2935) + 0 on 34;
+file "/mnt/d/Universidad/8C/AOC2/practicas/GHDL/Practica3_2/" "Banco_ID.vhd" "f481ce89d197a8f5759552cae9957568849d49c8" "20250324190338.814":
+  entity banco_id at 4( 288) + 0 on 23;
+  architecture behavioral of banco_id at 21( 850) + 0 on 24;
+file "/mnt/d/Universidad/8C/AOC2/practicas/GHDL/Practica3_2/" "Banco_MEM.vhd" "a63143eb624bf9299177ce9d088d5b166d2aafc9" "20250324190339.269":
+  entity banco_mem at 20( 488) + 0 on 41;
+  architecture behavioral of banco_mem at 68( 2356) + 0 on 42;
+file "/mnt/d/Universidad/8C/AOC2/practicas/GHDL/Practica3_2/" "Banco_WB.vhd" "2136940b04824280f30c8dca2f69463a53bcdd54" "20250324190339.394":
+  entity banco_wb at 20( 487) + 0 on 45;
+  architecture behavioral of banco_wb at 63( 2310) + 0 on 46;
+file "/mnt/d/Universidad/8C/AOC2/practicas/GHDL/Practica3_2/" "Ext_signo.vhd" "a86099b57bba8e351753e752f26601c7908ad4f4" "20250324190338.916":
+  entity ext_signo at 20( 488) + 0 on 27;
+  architecture behavioral of ext_signo at 37( 989) + 0 on 28;
+file "/mnt/d/Universidad/8C/AOC2/practicas/GHDL/Practica3_2/" "Mips_segmentado_practicas_completar_v2.vhd" "7de0dab4288a4a1b330e042f66074f42361e2efa" "20250324190338.424":
+  entity mips_segmentado at 18( 808) + 0 on 13;
+  architecture behavioral of mips_segmentado at 27( 990) + 0 on 14;
+file "/mnt/d/Universidad/8C/AOC2/practicas/GHDL/Practica3_2/" "RAM_816906.vhd" "8c9ce2b77cb70c76bd8e82834168e822625e3f89" "20250324190339.326":
+  entity data_memory_subsystem at 23( 677) + 0 on 43;
+  architecture behavioral of data_memory_subsystem at 49( 1697) + 0 on 44;
+file "/mnt/d/Universidad/8C/AOC2/practicas/GHDL/Practica3_2/" "RAM_I_816906.vhd" "7ce89c7f1075a84356acf3dab51ca16aff1d44b9" "20250324190338.763":
+  entity memoriaram_i at 23( 679) + 0 on 21;
+  architecture behavioral of memoriaram_i at 44( 1425) + 0 on 22;
+file "/mnt/d/Universidad/8C/AOC2/practicas/GHDL/Practica3_2/" "REGISTER.vhd" "bb1f16639744f39ecc1ef4892185e16345358757" "20250324190338.591":
+  entity reg at 2( 2) + 0 on 15;
+  architecture behavioral of reg at 15( 421) + 0 on 16;
+file "/mnt/d/Universidad/8C/AOC2/practicas/GHDL/Practica3_2/" "UC_completar.vhd" "e7f5273af54f03accf20d74217cf96ddc5bdfaba" "20250324190339.024":
+  entity uc at 23( 669) + 0 on 31;
+  architecture behavioral of uc at 53( 1846) + 0 on 32;
+file "/mnt/d/Universidad/8C/AOC2/practicas/GHDL/Practica3_2/" "adder32.vhd" "314628325a7fba8ded83ce676b48051d32b99dc4" "20250324190338.676":
+  entity adder32 at 20( 486) + 0 on 17;
+  architecture behavioral of adder32 at 39( 1097) + 0 on 18;
+file "/mnt/d/Universidad/8C/AOC2/practicas/GHDL/Practica3_2/" "bits_shifter.vhd" "84314704fb90b0c3a56bacef575e87f50f736186" "20250324190338.983":
+  entity two_bits_shifter at 20( 491) + 0 on 29;
+  architecture behavioral of two_bits_shifter at 37( 1003) + 0 on 30;
+file "/mnt/d/Universidad/8C/AOC2/practicas/GHDL/Practica3_2/" "counter.vhd" "4c787804472fe6172d2d20f4bfdcfb0934d580c9" "20250324190339.455":
+  entity counter at 20( 487) + 0 on 47;
+  architecture behavioral of counter at 46( 1270) + 0 on 48;
+file "/mnt/d/Universidad/8C/AOC2/practicas/GHDL/Practica3_2/" "mux2_1.vhd" "16c03f03addbb8a3f3dad9a1da21f497d0aa4854" "20250324190339.142":
+  entity mux2_1 at 20( 493) + 0 on 35;
+  architecture behavioral of mux2_1 at 39( 1069) + 0 on 36;
+file "/mnt/d/Universidad/8C/AOC2/practicas/GHDL/Practica3_2/" "mux2_5bits.vhd" "380d4d9ec33f6a77c2e56b7f36dec5b19b69ff9d" "20250324190339.229":
+  entity mux2_5bits at 20( 489) + 0 on 39;
+  architecture behavioral of mux2_5bits at 39( 1068) + 0 on 40;
+file "/mnt/d/Universidad/8C/AOC2/practicas/GHDL/Practica3_2/" "mux4_1.vhd" "77e61d225e8903760cce4b3e7e6390eff88901d5" "20250324190338.717":
+  entity mux4_1 at 20( 493) + 0 on 19;
+  architecture behavioral of mux4_1 at 41( 1197) + 0 on 20;
+file "/mnt/d/Universidad/8C/AOC2/practicas/GHDL/Practica3_2/" "testbench_Mips.vhd" "f0749b154014cb62bc0254290a090bcfd8cbadac" "20250324190338.348":
+  entity testbench at 3( 26) + 2 on 11;
+  architecture behavior of testbench at 10( 149) + 2 on 12;
